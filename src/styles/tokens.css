@@ -1,0 +1,22 @@
+:root {
+  --bg:         #F8F6F3;
+  --card:       #FFFFFF;
+  --card2:      #F0EDE8;
+  --border:     #E5E0D8;
+  --accent:     #4A8A7A;
+  --accent-dim: rgba(74,138,122,0.08);
+  --text:       #2C2824;
+  --muted:      #6B6560;
+  --green:      #5A9A8A;
+
+  /* spacing scale */
+  --sp-xs:  12px;
+  --sp-sm:  20px;
+  --sp-md:  40px;
+  --sp-lg:  80px;
+  --sp-xl:  116px;
+
+  /* safe-area insets for notched phones */
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+}
