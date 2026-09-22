@@ -35,7 +35,7 @@ export const blogPosts = [
       
       <p>That's the power of financial clarity. It transforms financial planning from a test of willpower into a series of obvious choices.</p>
     `,
-    date: '2025-01-15',
+    date: '2026-09-15',
     author: 'Firephin Team',
     featured: true,
     category: 'Financial Planning',
@@ -51,7 +51,7 @@ export const blogPosts = [
       <p>We often think of financial planning as something we'll get to "someday." But every day you delay has a real, measurable cost.</p>
       
       <h2>The Compound Effect of Delay</h2>
-      <p>The most obvious cost is missed compound growth. If you invest $500 per month starting at age 25 versus starting at age 35, the difference at retirement isn't just the $60,000 you didn't investit's the compound growth on that money.</p>
+      <p>The most obvious cost is missed compound growth. If you invest $500 per month starting at age 25 versus starting at age 35, the difference at retirement isn't just the $60,000 you didn't invest—it's the compound growth on that money.</p>
       
       <p>At a 7% annual return, starting at 25 gives you approximately $1.2 million by age 65. Starting at 35 gives you about $560,000. That ten-year delay cost you over $600,000.</p>
       
@@ -66,14 +66,14 @@ export const blogPosts = [
       </ul>
       
       <h2>The Cost of Complexity</h2>
-      <p>One reason people delay planning is that it seems complex. Spreadsheets, calculations, projectionsit feels overwhelming. But the cost of this complexity is that many people never start at all.</p>
+      <p>One reason people delay planning is that it seems complex. Spreadsheets, calculations, projections—it feels overwhelming. But the cost of this complexity is that many people never start at all.</p>
       
       <p>That's why we built Firephin to be simple. You enter your financial information once, and we handle the projections, calculations, and comparisons. Complexity shouldn't be a barrier to financial clarity.</p>
       
       <h2>Starting Today</h2>
-      <p>The best time to start financial planning was ten years ago. The second best time is today. The cost of another day of delay is realbut so is the benefit of starting now.</p>
+      <p>The best time to start financial planning was ten years ago. The second best time is today. The cost of another day of delay is real—but so is the benefit of starting now.</p>
     `,
-    date: '2025-01-10',
+    date: '2026-09-10',
     author: 'Firephin Team',
     featured: true,
     category: 'Investing',
@@ -111,7 +111,7 @@ export const blogPosts = [
       <p>But the real power comes from diving deeper. When you click into your score, you can see exactly which ratios are driving your score up or down, and what changes would have the biggest impact.</p>
       
       <h2>Using Your Score</h2>
-      <p>Your financial health score isn't a judgmentit's a tool. Use it to:</p>
+      <p>Your financial health score isn't a judgment—it's a tool. Use it to:</p>
       
       <ul>
         <li>Track your progress over time</li>
@@ -122,7 +122,7 @@ export const blogPosts = [
       
       <p>Financial health is a journey, not a destination. Your score gives you a clear starting point and a way to measure progress along the way.</p>
     `,
-    date: '2025-01-05',
+    date: '2026-09-05',
     author: 'Firephin Team',
     featured: false,
     category: 'Financial Planning',
@@ -132,7 +132,7 @@ export const blogPosts = [
     id: 4,
     slug: 'scenario-planning-for-major-life-decisions',
     title: 'Using Scenario Planning for Major Life Decisions',
-    excerpt: 'Career change, early retirement, starting a familysee how different choices impact your financial future.',
+    excerpt: 'Career change, early retirement, starting a family—see how different choices impact your financial future.',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop',
     content: `
       <p>Some of life's biggest decisions have major financial implications. Yet most of us make these decisions without fully understanding the long-term financial impact.</p>
@@ -156,12 +156,12 @@ export const blogPosts = [
       <h2>A Real Example</h2>
       <p>Consider someone considering a career change. Their current job pays $100,000 with modest growth. A new opportunity offers $80,000 but better growth potential and more satisfaction.</p>
       
-      <p>With scenario planning, they can see that after 10 years, the new career path actually surpasses the old oneand by year 20, the difference is substantial. This insight transforms the decision from "following my passion" to "making a smart long-term move."</p>
+      <p>With scenario planning, they can see that after 10 years, the new career path actually surpasses the old one—and by year 20, the difference is substantial. This insight transforms the decision from "following my passion" to "making a smart long-term move."</p>
       
       <h2>How to Use Scenario Planning</h2>
       <p>Start with your baseline scenario (your current path). Then create alternatives for major decisions you're considering. Compare them not just at one point in time, but over the full projection horizon.</p>
       
-      <p>Look for crossover pointswhen do the scenarios diverge? When does one clearly become better than another? These insights help you make decisions with confidence.</p>
+      <p>Look for crossover points—when do the scenarios diverge? When does one clearly become better than another? These insights help you make decisions with confidence.</p>
       
       <h2>Beyond Major Decisions</h2>
       <p>Scenario planning isn't just for big life changes. Use it to test the impact of smaller decisions too:</p>
@@ -174,7 +174,7 @@ export const blogPosts = [
       
       <p>Every decision has a financial impact. Scenario planning helps you see those impacts clearly.</p>
     `,
-    date: '2024-12-28',
+    date: '2026-08-28',
     author: 'Firephin Team',
     featured: false,
     category: 'Life Planning',
@@ -224,14 +224,14 @@ export const blogPosts = [
       <h2>The Trade-Off</h2>
       <p>We believe the trade-off is worth it. You lose some convenience (cloud sync, cross-device access) but gain complete privacy and control over your financial data.</p>
       
-      <p>In an age where data is constantly collected, analyzed, and monetized, we think it's time for a different approachone that respects your privacy by default.</p>
+      <p>In an age where data is constantly collected, analyzed, and monetized, we think it's time for a different approach—one that respects your privacy by default.</p>
       
       <h2>Transparency</h2>
       <p>Firephin is open source. You can inspect the code to verify that we're doing exactly what we say: processing your data locally and never transmitting it anywhere.</p>
       
       <p>Your financial data is yours. It should stay that way.</p>
     `,
-    date: '2024-12-20',
+    date: '2026-08-20',
     author: 'Firephin Team',
     featured: true,
     category: 'Privacy',
@@ -247,7 +247,7 @@ export const blogPosts = [
       <p>Firephin is designed to be simple enough to use in minutes, yet powerful enough to handle complex financial planning. Here's how to get started.</p>
       
       <h2>Getting Started</h2>
-      <p>Open Firephin in your browser. No account requiredjust start planning. Your data stays on your device, so you can begin immediately without any setup.</p>
+      <p>Open Firephin in your browser. No account required—just start planning. Your data stays on your device, so you can begin immediately without any setup.</p>
       
       <h2>Step 1: Enter Your Income</h2>
       <p>Start by entering your current income. Include your salary, bonuses, and any other regular income sources. This forms the foundation of your projections.</p>
@@ -255,7 +255,7 @@ export const blogPosts = [
       <p>Firephin allows you to model income growth over time, so you can account for raises, career changes, or other income changes.</p>
       
       <h2>Step 2: Add Your Expenses</h2>
-      <p>Next, enter your regular expenses. Include housing, transportation, food, insurance, and other recurring costs. Be as accurate as you canbetter data means better projections.</p>
+      <p>Next, enter your regular expenses. Include housing, transportation, food, insurance, and other recurring costs. Be as accurate as you can—better data means better projections.</p>
       
       <p>You can categorize expenses and see how they impact your financial health score.</p>
       
@@ -292,7 +292,12 @@ export const blogPosts = [
       </ul>
       
       <p>Scenarios appear side-by-side on the same chart, making it easy to see how different choices impact your financial future.</p>
-
+      
+      <h2>Step 8: Save and Export</h2>
+      <p>Since Firephin runs entirely in your browser, your data is stored locally. You can export your data at any time for backup or to use on another device.</p>
+      
+      <p>We recommend exporting your data regularly as a backup.</p>
+      
       <h2>Tips for Best Results</h2>
       <ul>
         <li><strong>Be accurate with current data:</strong> The quality of projections depends on the quality of input data</li>
@@ -300,11 +305,21 @@ export const blogPosts = [
         <li><strong>Experiment with scenarios:</strong> Use scenario planning to test major decisions</li>
         <li><strong>Focus on trends:</strong> Look at the overall trajectory rather than specific numbers</li>
       </ul>
-    
+      
+      <h2>Common Questions</h2>
+      
+      <p><strong>Is my data secure?</strong> Yes. Your data never leaves your device. Firephin processes everything locally in your browser.</p>
+      
+      <p><strong>Do I need to create an account?</strong> No. Firephin works without accounts. Just open and start planning.</p>
+      
+      <p><strong>Can I use this on multiple devices?</strong> You can export your data from one device and import it on another, but there's no automatic cloud sync.</p>
+      
+      <p><strong>How accurate are the projections?</strong> Projections are based on reasonable assumptions, but the future is uncertain. Use projections as a planning tool, not a prediction.</p>
+      
       <h2>Ready to Start?</h2>
       <p>Open Firephin and enter your financial information. In just a few minutes, you'll have a clear picture of your financial future and the tools to make better decisions today.</p>
     `,
-    date: '2025-01-20',
+    date: '2026-09-20',
     author: 'Firephin Team',
     featured: true,
     category: 'How-To',
@@ -328,7 +343,7 @@ export const blogPosts = [
       <p>Private equity firms use several key strategies to generate returns:</p>
       
       <h3>1. Operational Improvements</h3>
-      <p>Private equity firms don't just buy companiesthey actively work to improve them. This might involve:</p>
+      <p>Private equity firms don't just buy companies—they actively work to improve them. This might involve:</p>
       
       <ul>
         <li>Improving operational efficiency</li>
@@ -374,7 +389,7 @@ export const blogPosts = [
       </ul>
       
       <h3>4. Use Leverage Carefully</h3>
-      <p>Some individual investors use margin investing or real estate leverage. While this can amplify returns, it also amplifies riskuse it cautiously and understand the downside.</p>
+      <p>Some individual investors use margin investing or real estate leverage. While this can amplify returns, it also amplifies risk—use it cautiously and understand the downside.</p>
       
       <h3>5. Think in Scenarios</h3>
       <p>Private equity firms model multiple scenarios before investing. Individual investors can use tools like Firephin to model different financial scenarios and understand the range of possible outcomes.</p>
@@ -410,11 +425,11 @@ export const blogPosts = [
       </ul>
       
       <h2>The Takeaway</h2>
-      <p>Private equity isn't magicit's disciplined, active investing with a focus on creating value. Individual investors can apply similar principles: deep research, long-term thinking, active management, and scenario planning.</p>
+      <p>Private equity isn't magic—it's disciplined, active investing with a focus on creating value. Individual investors can apply similar principles: deep research, long-term thinking, active management, and scenario planning.</p>
       
       <p>The key is adapting these strategies to your situation, risk tolerance, and goals. Tools like Firephin can help you model scenarios and think like a sophisticated investor about your personal finances.</p>
     `,
-    date: '2025-01-18',
+    date: '2026-09-18',
     author: 'Firephin Team',
     featured: true,
     category: 'Investing',
