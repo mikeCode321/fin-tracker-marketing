@@ -4,11 +4,13 @@ import { Layout } from './components/Layout';
 import { Home } from './pages/Home';
 import { Blog } from './pages/Blog';
 import { BlogPost } from './pages/BlogPost';
+import { Analytics } from '@vercel/analytics/react';
 import './styles/global.css';
 
 function App() {
   return (
     <Router>
+      <Analytics />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
