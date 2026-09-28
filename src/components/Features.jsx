@@ -10,9 +10,6 @@ export const Features = () => {
   return (
     <section className="features">
       <div className="container">
-        <h2 className="features-heading reveal" ref={headingRef}>
-          Built for clarity,<br />not complexity.
-        </h2>
 
         <div className="features-grid">
           <div className="feature reveal" ref={feature1Ref}>

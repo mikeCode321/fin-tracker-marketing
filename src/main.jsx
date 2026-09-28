@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
+import { setWasmUrl } from '@lottiefiles/dotlottie-react';
+setWasmUrl('/dotlottie-player.wasm');
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
