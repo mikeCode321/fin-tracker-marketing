@@ -13,7 +13,7 @@ export const FinalCTA = () => {
         <div className="reveal d1" ref={buttonRef}>
           <a href="https://app.firephin.com" className="btn-primary">Open Firephin</a>
         </div>
-        <p className="reveal d2" ref={textRef}>Free. No sign-up. Your data never leaves your device.</p>
+        {/* <p className="reveal d2" ref={textRef}>Free. No sign-up. Your data never leaves your device.</p> */}
       </div>
     </section>
   );
