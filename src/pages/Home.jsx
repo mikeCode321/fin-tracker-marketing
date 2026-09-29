@@ -9,8 +9,18 @@ import { FinalCTA } from '../components/FinalCTA';
 export const Home = () => {
   return (
     <>
-      <Hero />
-      <ProjectionChart />
+      <div className="hero-chart-section">
+        <div className="container">
+          <div className="hero-chart-layout">
+            <div className="hero-wrapper">
+              <Hero />
+            </div>
+            <div className="chart-wrapper">
+              <ProjectionChart />
+            </div>
+          </div>
+        </div>
+      </div>
       <Stats />
       <Features />
       <Philosophy />

@@ -10,10 +10,15 @@ export const Philosophy = () => {
       <div className="container">
         <div className="philosophy-content">
           <blockquote className="reveal" ref={ref}>
-            "Most people don't lack motivation. They lack a clear picture."
+            Most people lack motivation because they lack a clear picture.
           </blockquote>
           <div className="philosophy-animation reveal">
-            <DotLottieReact src="/Revenue.lottie" loop autoplay />
+            <DotLottieReact
+              src="/Revenue.lottie"
+              loop
+              autoplay
+              renderConfig={{ renderer: 'canvas2d' }}
+            />
           </div>
         </div>
       </div>
