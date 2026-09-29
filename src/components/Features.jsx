@@ -19,8 +19,11 @@ export const Features = () => {
     <section className="features">
       <div className="container">
         <h2 className="features-heading reveal" ref={headingRef}>
-          Everything you need to see where you're headed.
+          Everything you need.
+          <br />
+          All in one place.
         </h2>
+
 
         <div className="features-grid">
           <div className="feature reveal" ref={feature1Ref}>
