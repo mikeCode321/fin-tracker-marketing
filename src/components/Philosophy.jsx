@@ -1,6 +1,7 @@
 import React from 'react';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { useReveal } from '../hooks/useReveal';
+import { FinalCTA } from './FinalCTA'
 
 export const Philosophy = () => {
   const ref = useReveal();
@@ -9,9 +10,7 @@ export const Philosophy = () => {
     <section className="philosophy">
       <div className="container">
         <div className="philosophy-content">
-          <blockquote className="reveal" ref={ref}>
-            Most people lack motivation because they lack a clear picture.
-          </blockquote>
+          < FinalCTA/>
           <div className="philosophy-animation reveal">
             <DotLottieReact
               src="/Revenue.json"
