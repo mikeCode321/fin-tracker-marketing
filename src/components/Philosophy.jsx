@@ -14,6 +14,7 @@ export const Philosophy = () => {
               src="/Revenue.json"
               loop
               autoplay
+              renderConfig={{ renderer: 'canvas2d' }}
             />
           </div>
         </div>
