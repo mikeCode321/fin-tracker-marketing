@@ -7,7 +7,7 @@ export const Blog = () => {
   const featuredPosts = getFeaturedPosts();
   const recentPosts = blogPosts.filter(post => !post.featured);
   const mainFeatured = featuredPosts[0];
-  const otherFeatured = featuredPosts.slice(1);
+  const otherFeatured = featuredPosts.slice(1, 6); // Limit to 5 items
 
   return (
     <>
@@ -46,7 +46,12 @@ export const Blog = () => {
                 {/* Other Featured Stories List */}
                 {otherFeatured.length > 0 && (
                   <div className="other-featured">
-                    <h3>More Featured</h3>
+                    <div className="other-featured-header">
+                      <h3>More Featured</h3>
+                      {featuredPosts.length > 6 && (
+                        <Link to="/blog" className="see-all-link">See all</Link>
+                      )}
+                    </div>
                     <div className="other-featured-list">
                       {otherFeatured.map(post => (
                         <Link key={post.id} to={`/blog/${post.slug}`} className="other-featured-item">

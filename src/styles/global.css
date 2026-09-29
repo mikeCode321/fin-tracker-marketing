@@ -850,6 +850,13 @@ nav {
   flex-direction: column;
 }
 
+.other-featured-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
 .other-featured h3 {
   font-family: "Cormorant Garamond", serif;
 
@@ -857,8 +864,20 @@ nav {
   font-weight: 300;
   font-style: italic;
   letter-spacing: -0.025em;
-  margin-bottom: 24px;
+  margin: 0;
   color: var(--text);
+}
+
+.see-all-link {
+  font-size: 14px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.see-all-link:hover {
+  opacity: 0.8;
 }
 
 .other-featured-list {
@@ -994,6 +1013,7 @@ nav {
 .post-read-time {
   display: flex;
   align-items: center;
+  color: var(--accent);
 }
 
 /* Individual Blog Post */
