@@ -548,6 +548,31 @@ nav {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+.feature-stat {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(36px, 4vw, 48px);
+  font-weight: 300;
+  color: var(--text);
+  letter-spacing: -0.03em;
+  line-height: 1;
+  display: flex;
+  align-items: baseline;
+  gap: 3px;
+  margin-bottom: 20px;
+}
+.feature-stat-unit {
+  font-size: 18px;
+  color: var(--accent);
+}
+.feature-visual {
+  margin-bottom: 20px;
+}
+.feature-visual-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 260px;
+}
 .feature-title {
   font-family: "Cormorant Garamond", serif;
 
@@ -563,6 +588,76 @@ nav {
   line-height: 1.8;
   color: var(--muted);
   font-weight: 300;
+}
+
+/* ── Status color utilities (mirrors the app's status system) ── */
+.status-healthy { --status-color: #3D7A52; }
+.status-watch   { --status-color: #9A7020; }
+.status-low     { --status-color: #A04840; }
+
+/* ── Mini health panel (static preview of the real app panel) ── */
+.mini-health-panel {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  max-width: 260px;
+}
+.mini-health-score-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.mini-health-score-label {
+  font-size: 9px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.mini-health-score-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--status-color, var(--text));
+  line-height: 1.15;
+  margin-top: 2px;
+}
+.mini-health-score-suffix {
+  font-size: 10px;
+  color: var(--muted);
+  font-weight: 500;
+}
+.mini-health-score-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--status-color, var(--text));
+}
+.mini-health-metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+}
+.mini-health-metric + .mini-health-metric {
+  border-top: 1px solid var(--border);
+}
+.mini-health-metric-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text);
+}
+.mini-health-metric-target {
+  font-size: 9px;
+  color: var(--muted);
+  margin-top: 1px;
+}
+.mini-health-metric-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--status-color, var(--text));
 }
 
 /* ─── PHILOSOPHY ──────────────────────────────────────────────────────── */
@@ -600,6 +695,27 @@ nav {
   flex-shrink: 0;
   width: 360px;
   height: 360px;
+}
+.philosophy-cta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.philosophy-cta h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--text);
+  margin-bottom: 24px;
+}
+.philosophy-cta .btn-primary {
+  padding: 14px 28px;
+  font-size: 15px;
 }
 
 /* ─── FINAL CTA ───────────────────────────────────────────────────────── */
@@ -1198,6 +1314,9 @@ nav {
   .philosophy-animation {
     width: 300px;
     height: 300px;
+  }
+  .philosophy-cta h2 {
+    font-size: 24px;
   }
   .philosophy blockquote br { display: none; }
 
